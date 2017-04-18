@@ -59,7 +59,7 @@ nav span {
 /* Mission Container */
 #mission {
   height: 700px;
-  background-image: url(file:///C:/Users/Stuar/Documents/Projects/Tea%20Cozy/Resources/Images/img-mission-background.jpg);
+  background-image: url(Images/img-mission-background.jpg);
   padding-top: 70px;
 }
 
@@ -115,7 +115,7 @@ h2 {
 
 #locations {
   height: 500px;
-  background-image: url(file:///C:/Users/Stuar/Documents/Projects/Tea%20Cozy/Resources/Images/img-locations-background.jpg);
+  background-image: url(Images/img-locations-background.jpg);
   padding-top: 70px;
 }
 
