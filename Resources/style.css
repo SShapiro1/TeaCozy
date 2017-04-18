@@ -2,37 +2,37 @@ body {
   background-color: black;
   margin: 0;
   text-align: center;
-  font-family: Helvetica;
+  font-family: Helvetica sans-serif;
   opacity: 0.9;
   color: seashell;
   font-size: 22px;
   display: block;
 }
 
-header {
-  width: 100%;
-  position: fixed;
-  border-bottom: 1px solid seashell;
-  background color: black;
-  height: 69px;
-  align-items: center;
-  z-index: 2;
-}
-
 .flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: black;
 }
 
 /* Header */
+
+header {
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  align-items: center;
+  background-color: black;
+  z-index: 2;
+}
+
 header img {
   height: 50px;
   padding-left: 10px;
 }
 
-header nav {
+nav {
   text-align: right;
   flex-grow: 1;
 }
@@ -128,6 +128,7 @@ h2 {
   padding-top: 5px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .location {
@@ -139,4 +140,19 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  }
+
+  /* Contact Section */
+
+  #contact {
+    height: 200px;
+    background-color: black
+  }
+
+  /* Footer Section */
+
+  footer {
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
   }
